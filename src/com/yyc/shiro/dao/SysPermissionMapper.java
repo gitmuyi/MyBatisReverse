@@ -1,7 +1,7 @@
-package com.yyc.security.dao;
+package com.yyc.shiro.dao;
 
-import com.yyc.security.pojo.SysPermission;
-import com.yyc.security.pojo.SysPermissionExample;
+import com.yyc.shiro.pojo.SysPermission;
+import com.yyc.shiro.pojo.SysPermissionExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
@@ -10,7 +10,7 @@ public interface SysPermissionMapper {
 
     int deleteByExample(SysPermissionExample example);
 
-    int deleteByPrimaryKey(String id);
+    int deleteByPrimaryKey(Integer id);
 
     int insert(SysPermission record);
 
@@ -18,7 +18,7 @@ public interface SysPermissionMapper {
 
     List<SysPermission> selectByExample(SysPermissionExample example);
 
-    SysPermission selectByPrimaryKey(String id);
+    SysPermission selectByPrimaryKey(Integer id);
 
     int updateByExampleSelective(@Param("record") SysPermission record, @Param("example") SysPermissionExample example);
 

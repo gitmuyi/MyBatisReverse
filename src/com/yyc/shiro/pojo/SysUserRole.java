@@ -1,20 +1,18 @@
-package com.yyc.security.pojo;
+package com.yyc.shiro.pojo;
 
 public class SysUserRole {
-    private String id;
+    private Integer id;
 
     private String userId;
 
     private String roleId;
 
-    private Short deleteFlag;
-
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getUserId() {
@@ -31,13 +29,5 @@ public class SysUserRole {
 
     public void setRoleId(String roleId) {
         this.roleId = roleId == null ? null : roleId.trim();
-    }
-
-    public Short getDeleteFlag() {
-        return deleteFlag;
-    }
-
-    public void setDeleteFlag(Short deleteFlag) {
-        this.deleteFlag = deleteFlag;
     }
 }

@@ -2,24 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f884ff39-6ff4-4a82-be77-e2d051b02325" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisReverse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisReverse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/ItemsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/ItemsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/OrderdetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/OrderdetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/OrdersMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/OrdersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/Items.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/ItemsExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/Orderdetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/OrderdetailExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/Orders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/OrdersExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/michael/ssm/po/UserExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBatisReverse/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBatisReverse/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBatisReverse/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBatisReverse/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysPermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysRolePermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysPermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysRoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysRolePermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenuExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermissionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenuExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermissionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserRoleExample.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +51,35 @@
       <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="25">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneratorSqlmap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Driver.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneratorSqlmap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="275">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -69,8 +104,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1935" />
+    <option name="x" value="451" />
+    <option name="y" value="63" />
+    <option name="width" value="1943" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -78,6 +114,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,7 +127,7 @@
             <path>
               <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyBatisReverse" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
@@ -99,14 +138,7 @@
               <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyBatisReverse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBatisReverse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
@@ -116,15 +148,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\work\MyBatisReverse\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,14 +239,16 @@
       <workItem from="1532143533529" duration="593000" />
       <workItem from="1532263469603" duration="618000" />
       <workItem from="1532570005198" duration="717000" />
+      <workItem from="1540779436804" duration="5053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5658000" />
+    <option name="totallyTimeSpent" value="10711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -223,12 +259,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36896047" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -251,13 +287,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-743">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mybatis-3.3.0.jar!/org/apache/ibatis/annotations/Param.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -400,16 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -420,10 +450,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.42-bin.jar!/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="275">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
