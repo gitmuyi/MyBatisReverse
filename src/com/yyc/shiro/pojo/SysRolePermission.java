@@ -3,9 +3,9 @@ package com.yyc.shiro.pojo;
 public class SysRolePermission {
     private Integer id;
 
-    private String roleId;
+    private Integer roleId;
 
-    private String permissionId;
+    private Integer permissionId;
 
     public Integer getId() {
         return id;
@@ -15,19 +15,19 @@ public class SysRolePermission {
         this.id = id;
     }
 
-    public String getRoleId() {
+    public Integer getRoleId() {
         return roleId;
     }
 
-    public void setRoleId(String roleId) {
-        this.roleId = roleId == null ? null : roleId.trim();
+    public void setRoleId(Integer roleId) {
+        this.roleId = roleId;
     }
 
-    public String getPermissionId() {
+    public Integer getPermissionId() {
         return permissionId;
     }
 
-    public void setPermissionId(String permissionId) {
-        this.permissionId = permissionId == null ? null : permissionId.trim();
+    public void setPermissionId(Integer permissionId) {
+        this.permissionId = permissionId;
     }
 }

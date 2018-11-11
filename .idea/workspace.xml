@@ -2,41 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f884ff39-6ff4-4a82-be77-e2d051b02325" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisReverse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisReverse.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBatisReverse/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBatisReverse/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBatisReverse/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBatisReverse/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysPermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysRolePermissionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/dao/SysUserRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysPermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysRoleMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysRolePermissionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/mapper/SysUserRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenuExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermissionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenuExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermissionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserRoleExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/dao/SysPermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/dao/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/dao/SysRolePermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/dao/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/dao/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/mapper/SysPermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/mapper/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/mapper/SysRolePermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/mapper/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/mapper/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysPermissionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysRoleExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysRolePermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysRolePermissionExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysUserExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysUserKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yyc/shiro/pojo/SysUserRoleExample.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,44 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Driver.class" pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratorSqlmap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,10 +54,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="451" />
-    <option name="y" value="63" />
-    <option name="width" value="1943" />
-    <option name="height" value="1040" />
+    <option name="x" value="158" />
+    <option name="y" value="28" />
+    <option name="width" value="1543" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -115,19 +65,14 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyBatisReverse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyBatisReverse" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyBatisReverse" type="b2602c69:ProjectViewProjectNode" />
@@ -240,15 +185,16 @@
       <workItem from="1532263469603" duration="618000" />
       <workItem from="1532570005198" duration="717000" />
       <workItem from="1540779436804" duration="5053000" />
+      <workItem from="1540787600371" duration="29000" />
+      <workItem from="1540795329900" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10711000" />
+    <option name="totallyTimeSpent" value="11355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -264,7 +210,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -289,6 +235,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/db.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneratorSqlmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1625">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
@@ -301,13 +275,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java" />
     <entry file="file://$PROJECT_DIR$/config/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -315,13 +283,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java" />
     <entry file="jar://$PROJECT_DIR$/lib/mybatis-3.3.0.jar!/org/apache/ibatis/annotations/Param.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -329,13 +291,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java" />
     <entry file="jar://$PROJECT_DIR$/lib/mybatis-3.3.0.jar!/org/apache/ibatis/annotations/Param.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -344,91 +300,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysMenuMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermissionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1150">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermissionExample.java" />
     <entry file="file://$PROJECT_DIR$/src/com/yyc/security/mapper/SysMenuMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenuExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1450">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermissionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/mapper/SysMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysMenuMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenuExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermissionExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRoleMenu.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRolePermission.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysUser.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysUserRole.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysRole.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/mapper/SysMenuMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysPermission.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenu.java" />
     <entry file="jar://$PROJECT_DIR$/lib/mybatis-3.3.0.jar!/org/apache/ibatis/annotations/Param.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -436,24 +320,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenuExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="599" column="31" lean-forward="true" selection-start-line="599" selection-start-column="31" selection-end-line="599" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/dao/SysRoleMenuMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/yyc/security/pojo/SysMenuExample.java" />
     <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.42-bin.jar!/com/mysql/jdbc/Driver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -468,20 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar!/com/mysql/cj/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
