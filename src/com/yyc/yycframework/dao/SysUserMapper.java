@@ -1,8 +1,7 @@
-package com.yyc.shiro.dao;
+package com.yyc.yycframework.dao;
 
-import com.yyc.shiro.pojo.SysUser;
-import com.yyc.shiro.pojo.SysUserExample;
-import com.yyc.shiro.pojo.SysUserKey;
+import com.yyc.yycframework.entity.SysUser;
+import com.yyc.yycframework.entity.SysUserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
@@ -11,21 +10,27 @@ public interface SysUserMapper {
 
     int deleteByExample(SysUserExample example);
 
-    int deleteByPrimaryKey(SysUserKey key);
+    int deleteByPrimaryKey(String userId);
 
     int insert(SysUser record);
 
     int insertSelective(SysUser record);
 
+    List<SysUser> selectByExampleWithBLOBs(SysUserExample example);
+
     List<SysUser> selectByExample(SysUserExample example);
 
-    SysUser selectByPrimaryKey(SysUserKey key);
+    SysUser selectByPrimaryKey(String userId);
 
     int updateByExampleSelective(@Param("record") SysUser record, @Param("example") SysUserExample example);
+
+    int updateByExampleWithBLOBs(@Param("record") SysUser record, @Param("example") SysUserExample example);
 
     int updateByExample(@Param("record") SysUser record, @Param("example") SysUserExample example);
 
     int updateByPrimaryKeySelective(SysUser record);
+
+    int updateByPrimaryKeyWithBLOBs(SysUser record);
 
     int updateByPrimaryKey(SysUser record);
 }

@@ -1,7 +1,7 @@
-package com.yyc.shiro.dao;
+package com.yyc.yycframework.dao;
 
-import com.yyc.shiro.pojo.SysRole;
-import com.yyc.shiro.pojo.SysRoleExample;
+import com.yyc.yycframework.entity.SysRole;
+import com.yyc.yycframework.entity.SysRoleExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
@@ -10,7 +10,7 @@ public interface SysRoleMapper {
 
     int deleteByExample(SysRoleExample example);
 
-    int deleteByPrimaryKey(Integer id);
+    int deleteByPrimaryKey(String roleId);
 
     int insert(SysRole record);
 
@@ -18,7 +18,7 @@ public interface SysRoleMapper {
 
     List<SysRole> selectByExample(SysRoleExample example);
 
-    SysRole selectByPrimaryKey(Integer id);
+    SysRole selectByPrimaryKey(String roleId);
 
     int updateByExampleSelective(@Param("record") SysRole record, @Param("example") SysRoleExample example);
 
