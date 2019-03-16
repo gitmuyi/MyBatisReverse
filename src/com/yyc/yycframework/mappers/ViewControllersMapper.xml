@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yyc.yycframework.dao.SysRolePermissionMapper">
-  <resultMap id="BaseResultMap" type="com.yyc.yycframework.entity.SysRolePermission">
-    <id column="role_id" jdbcType="VARCHAR" property="roleId" />
-    <id column="permission_id" jdbcType="VARCHAR" property="permissionId" />
-    <result column="id" jdbcType="VARCHAR" property="id" />
+<mapper namespace="com.yyc.yycframework.dao.ViewControllersMapper">
+  <resultMap id="BaseResultMap" type="com.yyc.yycframework.entity.ViewControllers">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="view_controller" jdbcType="VARCHAR" property="viewController" />
+    <result column="view_name" jdbcType="VARCHAR" property="viewName" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -65,15 +65,15 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    role_id, permission_id, id
+    id, view_controller, view_name
   </sql>
-  <select id="selectByExample" parameterType="com.yyc.yycframework.entity.SysRolePermissionExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.yyc.yycframework.entity.ViewControllersExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from mylearn..sys_role_permission
+    from view_controllers
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
@@ -81,72 +81,70 @@
       order by ${orderByClause}
     </if>
   </select>
-  <select id="selectByPrimaryKey" parameterType="com.yyc.yycframework.entity.SysRolePermissionKey" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
-    from mylearn..sys_role_permission
-    where role_id = #{roleId,jdbcType=VARCHAR}
-      and permission_id = #{permissionId,jdbcType=VARCHAR}
+    from view_controllers
+    where id = #{id,jdbcType=INTEGER}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="com.yyc.yycframework.entity.SysRolePermissionKey">
-    delete from mylearn..sys_role_permission
-    where role_id = #{roleId,jdbcType=VARCHAR}
-      and permission_id = #{permissionId,jdbcType=VARCHAR}
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from view_controllers
+    where id = #{id,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.yyc.yycframework.entity.SysRolePermissionExample">
-    delete from mylearn..sys_role_permission
+  <delete id="deleteByExample" parameterType="com.yyc.yycframework.entity.ViewControllersExample">
+    delete from view_controllers
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.yyc.yycframework.entity.SysRolePermission">
-    insert into mylearn..sys_role_permission (role_id, permission_id, id
+  <insert id="insert" parameterType="com.yyc.yycframework.entity.ViewControllers">
+    insert into view_controllers (id, view_controller, view_name
       )
-    values (#{roleId,jdbcType=VARCHAR}, #{permissionId,jdbcType=VARCHAR}, #{id,jdbcType=VARCHAR}
+    values (#{id,jdbcType=INTEGER}, #{viewController,jdbcType=VARCHAR}, #{viewName,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.yyc.yycframework.entity.SysRolePermission">
-    insert into mylearn..sys_role_permission
+  <insert id="insertSelective" parameterType="com.yyc.yycframework.entity.ViewControllers">
+    insert into view_controllers
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="roleId != null">
-        role_id,
-      </if>
-      <if test="permissionId != null">
-        permission_id,
-      </if>
       <if test="id != null">
         id,
       </if>
+      <if test="viewController != null">
+        view_controller,
+      </if>
+      <if test="viewName != null">
+        view_name,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="roleId != null">
-        #{roleId,jdbcType=VARCHAR},
-      </if>
-      <if test="permissionId != null">
-        #{permissionId,jdbcType=VARCHAR},
-      </if>
       <if test="id != null">
-        #{id,jdbcType=VARCHAR},
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="viewController != null">
+        #{viewController,jdbcType=VARCHAR},
+      </if>
+      <if test="viewName != null">
+        #{viewName,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.yyc.yycframework.entity.SysRolePermissionExample" resultType="java.lang.Long">
-    select count(*) from mylearn..sys_role_permission
+  <select id="countByExample" parameterType="com.yyc.yycframework.entity.ViewControllersExample" resultType="java.lang.Long">
+    select count(*) from view_controllers
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map">
-    update mylearn..sys_role_permission
+    update view_controllers
     <set>
-      <if test="record.roleId != null">
-        role_id = #{record.roleId,jdbcType=VARCHAR},
-      </if>
-      <if test="record.permissionId != null">
-        permission_id = #{record.permissionId,jdbcType=VARCHAR},
-      </if>
       <if test="record.id != null">
-        id = #{record.id,jdbcType=VARCHAR},
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.viewController != null">
+        view_controller = #{record.viewController,jdbcType=VARCHAR},
+      </if>
+      <if test="record.viewName != null">
+        view_name = #{record.viewName,jdbcType=VARCHAR},
       </if>
     </set>
     <if test="_parameter != null">
@@ -154,28 +152,30 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map">
-    update mylearn..sys_role_permission
-    set role_id = #{record.roleId,jdbcType=VARCHAR},
-      permission_id = #{record.permissionId,jdbcType=VARCHAR},
-      id = #{record.id,jdbcType=VARCHAR}
+    update view_controllers
+    set id = #{record.id,jdbcType=INTEGER},
+      view_controller = #{record.viewController,jdbcType=VARCHAR},
+      view_name = #{record.viewName,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.yyc.yycframework.entity.SysRolePermission">
-    update mylearn..sys_role_permission
+  <update id="updateByPrimaryKeySelective" parameterType="com.yyc.yycframework.entity.ViewControllers">
+    update view_controllers
     <set>
-      <if test="id != null">
-        id = #{id,jdbcType=VARCHAR},
+      <if test="viewController != null">
+        view_controller = #{viewController,jdbcType=VARCHAR},
+      </if>
+      <if test="viewName != null">
+        view_name = #{viewName,jdbcType=VARCHAR},
       </if>
     </set>
-    where role_id = #{roleId,jdbcType=VARCHAR}
-      and permission_id = #{permissionId,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.yyc.yycframework.entity.SysRolePermission">
-    update mylearn..sys_role_permission
-    set id = #{id,jdbcType=VARCHAR}
-    where role_id = #{roleId,jdbcType=VARCHAR}
-      and permission_id = #{permissionId,jdbcType=VARCHAR}
+  <update id="updateByPrimaryKey" parameterType="com.yyc.yycframework.entity.ViewControllers">
+    update view_controllers
+    set view_controller = #{viewController,jdbcType=VARCHAR},
+      view_name = #{viewName,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>
